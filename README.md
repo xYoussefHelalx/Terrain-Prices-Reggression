@@ -8,7 +8,9 @@ Final Private Score: 0.93
 ## Project Overview
 
 This project was developed for the Kaggle Terrain Prices Regression Challenge, where the objective was to predict land plot prices using environmental, geographic, and economic features.
+
 The dataset contains 40 mixed-type features describing terrain characteristics, accessibility, zoning, and local economic indicators. The target variable represents land price.
+
 The goal was to build a regression model capable of capturing nonlinear relationships between features and land value.
 
 ## Dataset Information
