@@ -1,8 +1,11 @@
 # Terrain Prices Regression – Kaggle Competition
 
 Competition: Terrain Prices Regression
+
 Platform: Kaggle
+
 Evaluation Metric: R² Score
+
 Final Private Score: 0.93
 
 ## Project Overview
@@ -16,13 +19,17 @@ The goal was to build a regression model capable of capturing nonlinear relation
 ## Dataset Information
 
 Training Set: 1,500 samples
+
 Test Set: 1,200 samples
+
 Features: 40 total
+
 Target: target (land price)
 
 Feature Types
 
 Categorical: location_type, land_use, zoning_code
+
 Numerical: elevation, slope_deg, soil_quality, median_income_area, crime_rate, amenities_score, etc.
 
 ## Workflow
@@ -36,7 +43,9 @@ Numerical: elevation, slope_deg, soil_quality, median_income_area, crime_rate, a
 
 ## Model Performance
 Model Version	Validation R²
+
 ElasticNet (Polynomial + Scaling)	High Validation Performance
+
 ElasticNet (Polynomial, No Scaling)	Lower Performance
 
 Final Private Kaggle Score: 0.93
@@ -44,12 +53,23 @@ Final Private Kaggle Score: 0.93
 ## Technologies Used
 
 Python
+
 Pandas
+
 NumPy
+
 Scikit-learn
+
   LabelEncoder
+  
   PolynomialFeatures
+  
   StandardScaler
+  
   ElasticNet
+  
   train_test_split
+  
 Kaggle Notebook Environment
+
+Competition: https://www.kaggle.com/competitions/terrain-prices-reggression/overview
